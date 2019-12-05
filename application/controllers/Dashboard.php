@@ -18,7 +18,7 @@ class Dashboard extends CI_Controller {
     
 	public function index()
 	{
-		//load dashboard
+		//load dashboard 1
 		$page='dashboard';
 		$header='header';
 		$data['user_name']=$this->session->userdata('user_name');
