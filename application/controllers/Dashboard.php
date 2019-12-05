@@ -28,6 +28,7 @@ class Dashboard extends CI_Controller {
 		
 		$data['view_cont']=$page;
 		$data['view_header']=$header;
+		$data['hi']='Hi';
 		$this->load->view('layout/template',$data);
 	}
 
